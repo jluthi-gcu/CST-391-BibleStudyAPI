@@ -44,8 +44,7 @@ CREATE TABLE IF NOT EXISTS `bible_study_db`.`studies` (
   `start_date_time` DATE NULL DEFAULT NULL,
   `end_date_time` DATE NULL DEFAULT NULL,
   `room_number` INT(11) NULL DEFAULT NULL,
-  PRIMARY KEY (`study_id`),
-  UNIQUE INDEX `unique_study_name` (`study_name` ASC))
+  PRIMARY KEY (`study_id`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 0
 DEFAULT CHARACTER SET = utf8;
